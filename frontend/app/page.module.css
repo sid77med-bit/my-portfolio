@@ -572,7 +572,8 @@ box-shadow: 0px 10px 34px 5px rgba(0, 0, 0, 0.5);
   }
 
   .projects {
-    padding: 40px 20px;
+    padding: 40px 12px;
+    overflow-x: hidden;
   }
 
   .projectHeader {
@@ -581,47 +582,63 @@ box-shadow: 0px 10px 34px 5px rgba(0, 0, 0, 0.5);
 
   .projects2Container {
     width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
     flex-direction: column;
+    border-radius: 24px;
+    padding: 8px;
   }
 
   .projects1Container {
     position: relative;
     top: auto;
     right: auto;
-    margin-top: 20px;
+    margin-top: 16px;
     width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    border-radius: 24px;
+    padding: 8px;
   }
 
   .projects2 {
-    padding-inline: 24px;
-    padding-block: 24px;
+    padding-inline: 20px;
+    padding-block: 20px;
   }
 
   .projects2 h3 {
     width: 100%;
-    font-size: 18px;
+    max-width: 100%;
+    font-size: 17px;
+    box-sizing: border-box;
   }
 
   .projects2 p {
     width: 100%;
+    max-width: 100%;
     font-size: 12px;
+    box-sizing: border-box;
   }
 
   .projects1 {
-    padding-inline: 24px;
-    padding-block: 24px;
+    padding-inline: 20px;
+    padding-block: 20px;
   }
 
   .projects1 h3 {
     width: 100%;
-    font-size: 18px;
-    margin-left: 10px;
+    max-width: 100%;
+    font-size: 17px;
+    margin-left: 0;
+    box-sizing: border-box;
   }
 
   .projects1 p {
     width: 100%;
+    max-width: 100%;
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 0;
+    box-sizing: border-box;
   }
 
   .contacts {
