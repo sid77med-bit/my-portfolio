@@ -679,8 +679,7 @@ box-shadow: 0px 10px 34px 5px rgba(0, 0, 0, 0.5);
     bottom: 200px;
     left: 50%;
     transform: translateX(-50%);
-    width: 30%;
-    max-width: 450px;
+    max-width: 300px;
     right: auto;
     margin: 0;
     padding: 14px 16px;
@@ -699,8 +698,9 @@ box-shadow: 0px 10px 34px 5px rgba(0, 0, 0, 0.5);
   }
 
   .inputContainer {
-  position: relative;
-  bottom: 10px;
+  position:absolute;
+  bottom: 0px;
   z-index: 11;
+  margin-bottom: -50px;
 }
 }
