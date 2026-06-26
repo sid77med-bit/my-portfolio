@@ -3,49 +3,49 @@ import styles from "../page.module.css";
 export default function Projects() {
   const projects1 = [
     {
-      title: "Prise de rendez-vous pour cabinets dentaires",
+      title: "Appointment Scheduling for Dental Clinics",
       description:
-        "Agent IA relié à Telegram avec interface web : les rendez-vous sont confirmés automatiquement, sans appel manqué.",
-      outils: ["Python", "LangChain", "FastAPI", "ElectronJS", "SQLite"],
+        "AI agent connected to Telegram with a web interface: appointments are confirmed automatically, with no missed calls.",
+      tools: ["Python", "LangChain", "FastAPI", "ElectronJS", "SQLite"],
     },
     {
-      title: "Prise de commandes pour fast-food",
+      title: "Order Taking System for Fast-Food",
       description:
-        "Système multi-agents IA qui prend, valide et transmet automatiquement les commandes en cuisine.",
-      outils: ["Python", "LangChain", "SQLite"],
+        "Multi-agent AI system that automatically takes, validates, and forwards orders to the kitchen.",
+      tools: ["Python", "LangChain", "SQLite"],
     },
     {
-      title: "AI Vault - Gestionnaire de mots de passe",
+      title: "AI Vault - Password Manager",
       description:
-        "Agent conversationnel sécurisé permettant de stocker et restituer des identifiants à la demande.",
-      outils: ["Python", "LangChain", "FastAPI", "Next.js"],
+        "Secure conversational agent for storing and retrieving credentials on demand.",
+      tools: ["Python", "LangChain", "FastAPI", "Next.js"],
     },
     {
-      title: "Chatbot RAG - Documentation Konica Minolta",
+      title: "RAG Chatbot - Konica Minolta Documentation",
       description:
-        "Assistant répondant instantanément aux questions techniques en langage naturel.",
-      outils: ["Python", "LangChain", "Streamlit"],
+        "Assistant instantly answering technical questions in natural language.",
+      tools: ["Python", "LangChain", "Streamlit"],
     },
     {
-      title: "Chatbot RAG - Métaheuristiques (P. Siarry)",
+      title: "RAG Chatbot - Metaheuristics (P. Siarry)",
       description:
-        "Assistant capable de citer, expliquer et contextualiser n'importe quel passage du livre.",
-      outils: ["Python", "LangChain", "Streamlit"],
+        "Assistant capable of citing, explaining, and contextualizing any passage from the book.",
+      tools: ["Python", "LangChain", "Streamlit"],
     },
     {
-      title: "Chatbot Portfolio & Compétences",
+      title: "Portfolio & Skills Chatbot",
       description:
-        "Agent conversationnel répondant aux questions sur le parcours, les compétences et les projets du propriétaire.",
-      outils: ["Python", "LangChain", "FastAPI", "Next.js"],
+        "Conversational agent answering questions about the owner's background, skills, and projects.",
+      tools: ["Python", "LangChain", "FastAPI", "Next.js"],
     },
   ];
 
   const projects2 = [
     {
-      title: "Portail de collecte TRN/TIN - BBI Consultancy (EAU)",
+      title: "TRN/TIN Collection Portal - BBI Consultancy (UAE)",
       description:
-        "Portail sécurisé permettant la saisie, la validation et le suivi des TRN/TIN via un tableau de bord.",
-      outils: [
+        "Secure portal for entering, validating, and tracking TRN/TIN via a dashboard.",
+      tools: [
         "Python",
         "FastAPI",
         "Vite",
@@ -55,22 +55,22 @@ export default function Projects() {
       ],
     },
     {
-      title: "Site vitrine BBM Technologies",
+      title: "BBM Technologies Showcase Website",
       description:
-        "Site web moderne, rapide et responsive présentant les services de l'entreprise.",
-      outils: ["Next.js"],
+        "Modern, fast, and responsive website presenting the company's services.",
+      tools: ["Next.js"],
     },
     {
-      title: "Logiciel de gestion commerciale",
+      title: "Business Management Software",
       description:
-        "Application complète de gestion des ventes, des stocks, des clients et des rapports.",
-      outils: ["FastAPI", "Vite", "PostgreSQL"],
+        "Complete application for managing sales, inventory, customers, and reports.",
+      tools: ["FastAPI", "Vite", "PostgreSQL"],
     },
     {
-      title: "Optimisation d'itinéraires VRPMBTW",
+      title: "VRPMBTW Route Optimization",
       description:
-        "Algorithme d'optimisation générant des itinéraires performants en quelques secondes.",
-      outils: ["Python", "FastAPI", "CustomTkinter"],
+        "Optimization algorithm generating high-performing routes in seconds.",
+      tools: ["Python", "FastAPI", "CustomTkinter"],
     },
   ];
 
@@ -89,7 +89,7 @@ export default function Projects() {
               <p>{project.description}</p>
 
               <div className={styles.out2}>
-                {project.outils.map((tool) => (
+                {project.tools.map((tool) => (
                   <div key={tool} className={styles.o2}>
                     {tool}
                   </div>
@@ -108,7 +108,7 @@ export default function Projects() {
               <p>{project.description}</p>
 
               <div className={styles.out1}>
-                {project.outils.map((tool) => (
+                {project.tools.map((tool) => (
                   <div key={tool} className={styles.o1}>
                     {tool}
                   </div>
