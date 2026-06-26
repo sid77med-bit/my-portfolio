@@ -653,13 +653,18 @@ box-shadow: 0px 10px 34px 5px rgba(0, 0, 0, 0.5);
   .contactGrid {
     flex-direction: column;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 100px;
     align-items: center;
     gap: 20px;
   }
 
   .contactItem {
     width: 50%;
+  }
+
+  .contactItem strong{
+    font-size: 12px; 
+    font-weight: 200;
   }
 
   .out1 {
