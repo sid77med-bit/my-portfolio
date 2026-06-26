@@ -41,7 +41,7 @@ export default function Home() {
 
       setAnswer(data.answer);
     } catch {
-      setError("Le RAG n'est pas disponible pour le moment.");
+      setError("Le système n'est pas disponible pour le moment.");
     } finally {
       setIsLoading(false);
     }
