@@ -520,3 +520,159 @@ box-shadow: 0px 10px 34px 5px rgba(0, 0, 0, 0.5);
   clip-path: polygon(0 0, 100% 0, 100% 100%);
   filter: drop-shadow(2px 3px 3px rgba(0, 0, 0, 0.08));
 }
+
+/* ==================== RESPONSIVE ==================== */
+
+@media (max-width: 768px) {
+  .hero {
+    width: 90%;
+    line-height: 60px;
+    align-items: center;
+    position: static;
+  }
+
+  .hero1 {
+    font-size: 60px;
+  }
+
+  .hero2 {
+    font-size: 63px;
+  }
+
+  .hero3 {
+    font-size: 72px;
+    z-index: 0;
+    margin-bottom: 180px;
+  }
+
+  .toper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .toper p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .link0 {
+    width: 90px;
+    height: 36px;
+    font-size: 11px;
+  }
+
+  .inputContainer {
+    width: 100%;
+  }
+
+  .avatar {
+    height: 350px;
+  }
+
+  .projects {
+    padding: 40px 20px;
+  }
+
+  .projectHeader {
+    margin-left: 0;
+  }
+
+  .projects2Container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .projects1Container {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .projects2 {
+    padding-inline: 24px;
+    padding-block: 24px;
+  }
+
+  .projects2 h3 {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .projects2 p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .projects1 {
+    padding-inline: 24px;
+    padding-block: 24px;
+  }
+
+  .projects1 h3 {
+    width: 100%;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .projects1 p {
+    width: 100%;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .contacts {
+    padding: 40px 20px;
+  }
+
+  .contactsHeader {
+    margin-inline: 0;
+  }
+
+  .contactGrid {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contactItem {
+    width: 50%;
+  }
+
+  .out1 {
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+
+  .out2 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .formationTextSlot {
+    position: relative;
+    top: -220px;
+    right: auto;
+    max-width: calc(100vw - 40px);
+    width: 200px;
+    margin: 20px auto 10px;
+    padding: 14px 16px;
+    font-size: 12px;
+    line-height: 1.3;
+    border-radius: 16px;
+    box-sizing: border-box;
+  }
+
+  .formationTextSlot::after {
+ left: 20px;
+  }
+
+  .toolsHeader {
+    width: calc(100% - 40px);
+  }
+}
