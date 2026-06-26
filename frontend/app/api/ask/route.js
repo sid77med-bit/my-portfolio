@@ -23,7 +23,7 @@ export async function POST(request) {
 
     if (!response.ok) {
       return NextResponse.json(
-        { error: "Le RAG n'est pas disponible pour le moment." },
+        { error: "Je ne suis pas disponible pour le moment." },
         { status: response.status }
       );
     }
