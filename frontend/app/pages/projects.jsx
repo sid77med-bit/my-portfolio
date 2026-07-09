@@ -23,7 +23,7 @@ export default function Projects() {
     {
       title: "RAG Chatbot - Konica Minolta Documentation",
       description:
-        "Assistant instantly answering technical questions in natural language.",
+        "Assistant instantly answering technical questions aboute Konika Minolta machines in natural language.",
       tools: ["Python", "LangChain", "Streamlit"],
     },
     {
@@ -69,8 +69,8 @@ export default function Projects() {
     {
       title: "VRPMBTW Route Optimization",
       description:
-        "Optimization algorithm generating high-performing routes in seconds.",
-      tools: ["Python", "FastAPI", "CustomTkinter"],
+        "Optimization algorithm generating high-performing routes in seconds for VRP problem with backholes time windows mixed pickup and delivery demands.",
+      tools: ["Python", "CustomTkinter"],
     },
   ];
 

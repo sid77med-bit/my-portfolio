@@ -12,7 +12,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://my-portfolio-frontend-f0og.onrender.com"],
     allow_credentials=True,
     allow_methods=["GET", "POST"],
     allow_headers=["*"],

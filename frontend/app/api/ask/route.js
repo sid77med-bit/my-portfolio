@@ -32,7 +32,7 @@ export async function POST(request) {
     return NextResponse.json({ answer: data.answer || "" });
   } catch {
     return NextResponse.json(
-      { error: "Impossible de contacter le RAG." },
+      { error: "Impossible de contacter le backend." },
       { status: 503 }
     );
   }

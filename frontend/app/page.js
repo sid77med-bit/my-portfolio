@@ -80,7 +80,7 @@ export default function Home() {
               Resume
             </a>
             <p>
-              Hello I’m an AI-oriented developer specializing in automation and
+              Hello I’m a web developer specializing in AI agents, automation and
               web development. And my name is
             </p>
           </div>
