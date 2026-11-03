@@ -12,8 +12,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "siahmed.boudissa@bbmtech.com",
-      href: "mailto:siahmed.boudissa@bbmtech.com",
+      value: "sidoboudi@gamil.com",
+      href: "mailto:sidoboudi@gamil.com",
     },
     {
       icon: MapPin,

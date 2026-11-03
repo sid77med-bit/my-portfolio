@@ -10,7 +10,7 @@ REFUSAL_MESSAGE = "Je ne peux pas vous communiquer cette information."
 
 CV_TEXT = """
 Merouane Sid Ahmed BOUDISSA
-Développeur orienté intelligence artificielle, automatisation et développement web
+Ingénieur software et recheche operationnelle
 
 Email : sidoboudi@gmail.com
 Téléphone : +213 781 10 38 35
@@ -18,8 +18,7 @@ Adresse : Cité 1839 logt Bt 30 n°44 El Achour, Alger, 16024
 LinkedIn : @Sid-Ahmed Boudissa
 
 --- PROFIL ---
-Développeur orienté intelligence artificielle, automatisation et développement web,
-avec une expérience dans la conception d'applications, la création d'agents IA et le
+Ingénieur software, avec une expérience dans la conception d'applications, la création d'agents IA et le
 développement de chatbots RAG avec LangChain. Je conçois des solutions intelligentes
 capables d'automatiser des processus métiers, d'améliorer l'expérience utilisateur
 et de répondre à des besoins opérationnels concrets. Mon parcours en mathématiques
@@ -33,7 +32,7 @@ structurée et orientée solution.
 
 --- OUTILS & COMPÉTENCES TECHNIQUES ---
 Python, Node.js, Next.js, React, FastAPI, PostgreSQL, Flask, Docker,
-LangChain, RAG, Agents IA, Chatbots IA, CPLEX, R Studio, Bureautique
+LangChain, RAG, Agents IA, Chatbots IA, CPLEX, R Studio, Odoo
 
 --- COMPÉTENCES MÉTIER ---
 - Développement d'agents IA
@@ -65,7 +64,7 @@ Développement web, Optimisation
    Classement : 2e de la promotion
 
 --- EXPÉRIENCES PROFESSIONNELLES ---
-1. Développeur — Depuis décembre 2025
+1. Développeur — De décembre 2025 a octobre 2026
    BBM Technologies, Alger
    - Participation au développement de solutions logicielles orientées performance, automatisation et innovation.
    - Contribution à la conception, l'amélioration et l'intégration d'applications internes.
