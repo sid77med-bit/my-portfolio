@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const backendUrl = process.env.RAG_BACKEND_URL || "https://my-portfolio-0q3m.onrender.com";
+const backendUrl = process.env.RAG_BACKEND_URL ;
 
 export async function POST(request) {
   try {

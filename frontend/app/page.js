@@ -28,7 +28,7 @@ export default function Home() {
     setIsLoading(true);
 
     try {
-      const response = await fetch("/api/ask", {
+      const response = await fetch("api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: cleanQuestion }),

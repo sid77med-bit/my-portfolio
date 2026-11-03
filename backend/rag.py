@@ -171,7 +171,7 @@ def ask(question: str, thread_id: str = "default") -> str:
     history = get_history(thread_id)
 
     response = get_client().chat.completions.create(
-        model="qwen/qwen3-32b",
+        model="qwen/qwen3.8-27b",
         temperature=0,
         reasoning_effort="none",
         messages=history,
