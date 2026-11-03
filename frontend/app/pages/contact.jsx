@@ -12,8 +12,8 @@ export default function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "sidoboudi@gamil.com",
-      href: "mailto:sidoboudi@gamil.com",
+      value: "sidoboudi@gmail.com",
+      href: "mailto:sidoboudi@gmail.com",
     },
     {
       icon: MapPin,
